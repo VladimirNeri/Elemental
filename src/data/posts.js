@@ -4,7 +4,7 @@ const data = [
     id: '0', 
     title: 'Fall',
     image: require('./images/1.jpg'),
-    path: '/blog/fall',
+    path: './blog/fall',
     category: 'nature'
   },
   {
