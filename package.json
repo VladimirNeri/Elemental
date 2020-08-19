@@ -2,7 +2,7 @@
   "name": "elemental",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vladimirneri.github.io/elemental/",
+  "homepage": "https://vladimirneri.github.io/elemental",
   "dependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
