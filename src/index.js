@@ -11,9 +11,13 @@ import Signpage from './views/signup';
 
 import './index.css';
 
+import { createBrowserHistory } from "history";
+
+const history = createBrowserHistory();
+
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router history={history} basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/portraits" component={Portraits} />
