@@ -16,7 +16,7 @@ const Blog = () => {
   return (
     <div className="container">
       <Navbar />
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Switch>
           <Route path="/blog/fall" component={Fall} />
           <Route path="/blog/summer" component={Summer} />
