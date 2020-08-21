@@ -18,7 +18,7 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/portraits" component={Portraits} />
         <Route path="/nature" component={Nature} />
-        <Route path="/blog" component={Blog} />
+        <Route path="/posts" component={Blog} />
         <Route path="/submit" component={Submit} />
         <Route path="/signup" component={Signpage} />
       </Switch>

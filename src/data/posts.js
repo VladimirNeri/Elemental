@@ -4,7 +4,7 @@ const data = [
     id: '0', 
     title: 'Fall',
     image: require('./images/1.jpg'),
-    path: '/blog/fall',
+    path: '/posts/fall',
     category: 'nature'
   },
   {
@@ -29,14 +29,14 @@ const data = [
     id: '4',
     title: 'Spring', 
     image: require('./images/2.jpg'),
-    path: '/blog/spring',
+    path: '/posts/spring',
     category: 'nature'
   },
   { 
     id: '5',
     title: 'Winter', 
     image: require('./images/9.jpg'),
-    path: '/blog/winter',
+    path: '/posts/winter',
     category: 'nature'
   },
   { 
@@ -85,7 +85,7 @@ const data = [
     id: '13',
     title: 'Summer', 
     image: require('./images/16.jpg'),
-    path: '/blog/summer',
+    path: '/posts/summer',
     category: 'nature'
   },
 ];

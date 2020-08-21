@@ -18,10 +18,10 @@ const Blog = () => {
       <Navbar />
       <Router>
         <Switch>
-          <Route path="/blog/fall" component={Fall} />
-          <Route path="/blog/summer" component={Summer} />
-          <Route path="/blog/spring" component={Spring} />
-          <Route path="/blog/winter" component={Winter} />
+          <Route path="/posts/fall" component={Fall} />
+          <Route path="/posts/summer" component={Summer} />
+          <Route path="/posts/spring" component={Spring} />
+          <Route path="/posts/winter" component={Winter} />
         </Switch>
       </Router>
     </div>
