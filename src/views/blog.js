@@ -18,7 +18,7 @@ const Blog = () => {
       <Navbar />
       <Router>
         <Switch>
-          <Route path="/blog/fall" component={Fall} />
+          <Route path="/blog/fall/" component={Fall} />
           <Route path="/blog/summer" component={Summer} />
           <Route path="/blog/spring" component={Spring} />
           <Route path="/blog/winter" component={Winter} />

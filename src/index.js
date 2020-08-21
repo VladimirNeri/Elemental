@@ -11,10 +11,6 @@ import Signpage from './views/signup';
 
 import './index.css';
 
-// import { createBrowserHistory } from "history";
-
-// const history = createBrowserHistory();
-
 ReactDOM.render(
   <React.StrictMode>
     <Router>
