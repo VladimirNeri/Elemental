@@ -3,11 +3,14 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import slide01 from '../../data/images/1.jpg'; 
 import slide02 from '../../data/images/2.jpg';
-import slide03 from '../../data/images/3.jpg'
+import slide03 from '../../data/images/11.jpg'
+
+import { HeroStyl } from './hero.style'; 
 
 const Hero = () => {
   return (
-    <Carousel>
+    <HeroStyl>
+    <Carousel bsPrefix='carousel'>
     <Carousel.Item>
       <img
         className='d-block w-100'
@@ -34,7 +37,7 @@ const Hero = () => {
     </Carousel.Item>
     
   </Carousel>
-   
+  </HeroStyl>
   );
 };
 

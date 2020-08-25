@@ -26,6 +26,7 @@ body {
 }
 
 .container {
+  max-width: 83%;
   padding: 10px; 
   margin-left: 8%;  
   margin-right: 8%; 
@@ -61,3 +62,4 @@ body {
   background-size: cover; 
   background-position: center; 
 }
+
