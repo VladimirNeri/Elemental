@@ -10,7 +10,7 @@ import { HeroStyl } from './hero.style';
 const Hero = () => {
   return (
     <HeroStyl>
-      <Carousel>
+      <Carousel interval={8000}>
         <Carousel.Item>
           <img className='d-block w-100' src={slide01} alt='First slide' />
           <Carousel.Caption>
