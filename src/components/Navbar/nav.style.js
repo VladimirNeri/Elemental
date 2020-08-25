@@ -7,12 +7,13 @@ export const Nav = styled.div`
   font-size: 12px;
   text-transform: uppercase;
   height: 4rem; 
-  
+  z-index: 21;
   overflow: hidden;
   padding-top: .25rem;
   position: fixed;
   top: 0; 
-  width: 83%;
+  width: 83%; 
+
 
   @media (max-width: 1029px) {
     grid-template-columns: repeat(5, auto);
@@ -36,12 +37,14 @@ export const Nav = styled.div`
     }
   }
 
+  .title {
+    margin-top: .5rem
+  }
   .searchbar {
     grid-column: 2/3
     margin: auto;
     margin-top: .75rem;
     
-
     input {
       width: 20rem;
       outline: none; 
@@ -55,7 +58,8 @@ export const Nav = styled.div`
 
   .links {
     grid-column: 4/6; 
-    
+    justify-self: end 
+
     @media (max-width: 1029px) {
       grid-column: 3/5;
       margin: auto;
@@ -73,7 +77,7 @@ export const Nav = styled.div`
 
   .icons {
     grid-column: 7/7;
-    justify-self: end;
+    
     
     @media (max-width: 1029px) {
       grid-column: 5/5;
@@ -104,5 +108,4 @@ export const Nav = styled.div`
       margin-right: 0px; 
     }
   }
-  
 `;
