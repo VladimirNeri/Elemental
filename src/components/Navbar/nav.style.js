@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Nav = styled.div`
   background-color: white;
   display: grid;
-  grid-template-columns: repeat(7, auto); 
+  grid-template-columns: repeat(8, auto); 
   font-size: 12px;
   text-transform: uppercase;
   height: 4rem; 
@@ -12,7 +12,8 @@ export const Nav = styled.div`
   padding-top: .25rem;
   position: fixed;
   top: 0; 
-  width: 83%; 
+  width: 84%; 
+  justify-content: space-between; 
 
 
   @media (max-width: 1029px) {
@@ -40,25 +41,11 @@ export const Nav = styled.div`
   .title {
     margin-top: .5rem
   }
-  .searchbar {
-    grid-column: 2/3
-    margin: auto;
-    margin-top: .75rem;
-    
-    input {
-      width: 20rem;
-      outline: none; 
-      text-indent: 2px;
-    }
-
-    @media (max-width: 1031px) {
-      display: none; 
-    }
-  }
 
   .links {
-    grid-column: 4/6; 
-    justify-self: end 
+    grid-column: 3/7;
+    justify-self: end;
+    margin: auto; 
 
     @media (max-width: 1029px) {
       grid-column: 3/5;
@@ -76,7 +63,7 @@ export const Nav = styled.div`
   }
 
   .icons {
-    grid-column: 7/7;
+    grid-column: 8/8;
     
     
     @media (max-width: 1029px) {
