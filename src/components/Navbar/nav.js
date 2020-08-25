@@ -19,8 +19,6 @@ const Navbar = () => {
             </Link>
           ))}
       </h1>
-
-     
       
       <div className="links">
         <ul>
