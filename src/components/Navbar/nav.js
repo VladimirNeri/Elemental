@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // style
 import { Nav } from './nav.style';
 
-function Navbar() {
+const Navbar = () => {
   return (
     <Nav>
       <h1 className="title">

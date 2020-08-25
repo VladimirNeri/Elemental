@@ -22,6 +22,6 @@ export const Pagstyl = styled.div`
     margin-bottom: 1em; 
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 80%;
   }
 `

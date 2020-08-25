@@ -4,6 +4,7 @@ import { Pagstyl } from './blog.style';
 
 const Fall = () => {
   let pagData = data.filter((data) => data.title === 'Fall');
+
   return (
     <Pagstyl>
       {pagData.map((post) => (
@@ -12,7 +13,7 @@ const Fall = () => {
           <p>{post.desc}</p>
           <img src={post.image.image1} alt={post.title} className="image" />
           <p>"Ut enim consequatur?"</p>
-          <img src={post.image.image2} alt={post.title} className="image" />
+          <img src={post.image.image2} alt={post.title} className="image2" />
         </header>
       ))}
     </Pagstyl>
