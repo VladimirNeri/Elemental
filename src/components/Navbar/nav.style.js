@@ -7,7 +7,7 @@ export const Nav = styled.div`
   font-size: 12px;
   text-transform: uppercase;
   height: 4rem; 
-  width: 82.5%;
+  width: 82%;
   
   overflow: hidden;
   z-index: 21; 
