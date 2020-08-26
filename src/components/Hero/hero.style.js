@@ -6,9 +6,12 @@ export const HeroStyl = styled.div`
   padding-bottom: 10px; 
   padding-top: 3px; 
 
+  @media (max-width: 450px) {
+    width: 100%
+  }
+
   img {
    width: 900px; 
    height: auto; 
   }
-
 `;
