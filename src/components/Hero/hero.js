@@ -8,10 +8,9 @@ import slide02 from '../../data/images/14.jpg';
 import slide03 from '../../data/images/18.jpg';
 import slide04 from '../../data/images/22.jpg';
 
-
 import { HeroStyl } from './hero.style';
 
-const Hero = (post) => {
+const Hero = () => {
   return (
     <HeroStyl>
       <Carousel interval={8000} bsPrefix='carousel'>
