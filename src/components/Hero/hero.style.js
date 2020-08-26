@@ -5,4 +5,10 @@ export const HeroStyl = styled.div`
   width: 70%; 
   padding-bottom: 10px; 
   padding-top: 3px; 
+
+  img {
+   width: 900px; 
+   height: auto; 
+  }
+
 `;

@@ -7,11 +7,11 @@ export const Nav = styled.div`
   font-size: 12px;
   text-transform: uppercase;
   height: 4rem; 
-  width: 83%;
+  width: 82%;
   
   overflow: hidden;
   z-index: 21; 
-  padding-top: .25rem;
+  padding-top: .75rem;
   position: fixed;
   top: 0; 
 
