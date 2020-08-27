@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/elemental/static/css/main.0abe2ee3.chunk.css",
-    "main.js": "/elemental/static/js/main.283fe6f3.chunk.js",
-    "main.js.map": "/elemental/static/js/main.283fe6f3.chunk.js.map",
+    "main.js": "/elemental/static/js/main.8eba3f7c.chunk.js",
+    "main.js.map": "/elemental/static/js/main.8eba3f7c.chunk.js.map",
     "runtime-main.js": "/elemental/static/js/runtime-main.a902730e.js",
     "runtime-main.js.map": "/elemental/static/js/runtime-main.a902730e.js.map",
     "static/css/2.11829350.chunk.css": "/elemental/static/css/2.11829350.chunk.css",
-    "static/js/2.70d1013a.chunk.js": "/elemental/static/js/2.70d1013a.chunk.js",
-    "static/js/2.70d1013a.chunk.js.map": "/elemental/static/js/2.70d1013a.chunk.js.map",
+    "static/js/2.ec1dadc5.chunk.js": "/elemental/static/js/2.ec1dadc5.chunk.js",
+    "static/js/2.ec1dadc5.chunk.js.map": "/elemental/static/js/2.ec1dadc5.chunk.js.map",
     "index.html": "/elemental/index.html",
-    "precache-manifest.aff77571e08dfd51f8eb16704c740889.js": "/elemental/precache-manifest.aff77571e08dfd51f8eb16704c740889.js",
+    "precache-manifest.aec8f2d4ff4ea18527aa12f0d6286131.js": "/elemental/precache-manifest.aec8f2d4ff4ea18527aa12f0d6286131.js",
     "service-worker.js": "/elemental/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/elemental/static/css/2.11829350.chunk.css.map",
     "static/css/main.0abe2ee3.chunk.css.map": "/elemental/static/css/main.0abe2ee3.chunk.css.map",
-    "static/js/2.70d1013a.chunk.js.LICENSE.txt": "/elemental/static/js/2.70d1013a.chunk.js.LICENSE.txt",
+    "static/js/2.ec1dadc5.chunk.js.LICENSE.txt": "/elemental/static/js/2.ec1dadc5.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/elemental/static/media/1.bc4a55ee.jpg",
     "static/media/10.jpg": "/elemental/static/media/10.6d7b7450.jpg",
     "static/media/11.jpg": "/elemental/static/media/11.d23bb3de.jpg",
@@ -26,6 +26,7 @@
     "static/media/19.jpg": "/elemental/static/media/19.944b803e.jpg",
     "static/media/2.jpg": "/elemental/static/media/2.94d2d5c0.jpg",
     "static/media/22.jpg": "/elemental/static/media/22.0d456d4d.jpg",
+    "static/media/23.jpg": "/elemental/static/media/23.66b31411.jpg",
     "static/media/3.jpg": "/elemental/static/media/3.b02f7cd9.jpg",
     "static/media/4.jpg": "/elemental/static/media/4.8c2c094b.jpg",
     "static/media/5.jpg": "/elemental/static/media/5.8cc56dea.jpg",
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.a902730e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.70d1013a.chunk.js",
+    "static/js/2.ec1dadc5.chunk.js",
     "static/css/main.0abe2ee3.chunk.css",
-    "static/js/main.283fe6f3.chunk.js"
+    "static/js/main.8eba3f7c.chunk.js"
   ]
 }
