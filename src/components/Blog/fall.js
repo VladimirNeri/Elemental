@@ -13,7 +13,7 @@ const Fall = () => {
           <p>{post.desc}</p>
           <img src={post.image.image1} alt={post.title} className="image" />
           <p>"Ut enim consequatur?"</p>
-          <img src={post.image.image2} alt={post.title} className="image2" />
+          <img src={post.image.image2} alt={post.title} className="image" />
         </header>
       ))}
     </Pagstyl>
