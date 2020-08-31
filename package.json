@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://vladimirneri.github.io/elemental/",
   "dependencies": {
+    "@auth0/auth0-react": "^1.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -15,7 +16,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
+    "react-burger-menu": "^2.7.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "react-masonry-component": "^6.2.1",
     "react-masonry-css": "^1.0.14",
     "react-router-dom": "^5.2.0",

@@ -44,7 +44,6 @@ body {
 .my-masonry-grid_column {
   padding-left: 10px; /* gutter size */
   background-clip: padding-box;
-  
 }
 
 /* Style your items */
@@ -54,7 +53,7 @@ body {
 }
 
 .image {
-  /* object-fit: cover;  */
+  object-fit: cover; 
   padding: 0; 
   max-width: 100%;
   height: auto; 

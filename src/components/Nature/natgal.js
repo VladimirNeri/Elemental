@@ -9,7 +9,7 @@ const Natgal = () => {
 
   return (
     <Masonry
-      breakpointCols={{ default: 3, 800: 2 }}
+      breakpointCols={{ default: 3, 1100: 3, 700: 2, 500: 1 }}
       className="my-masonry-grid"
       columnClassName="my-masonry-grid_column"
     >

@@ -10,6 +10,7 @@ export const HeroStyl = styled.div`
     width: 100%
   }
 
+   /* Should be on the markup */
   img {
    width: 900px; 
    height: auto; 

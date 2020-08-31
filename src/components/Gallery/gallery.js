@@ -23,8 +23,6 @@ const Gallery = () => {
           </a>
         </div>
       ))}
-
-      
     </Masonry>
   );
 };
