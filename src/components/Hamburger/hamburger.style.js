@@ -99,12 +99,9 @@ export const HamStyl = styled.div`
 		font-family: "Raleway", Helvetica, sans-serif;
 	}
 
-	.index-link {
-		z-index: 3;
-	}
-
   .main .menu {
 		cursor: pointer;
+    z-index: 3;
 	}
 
   .main .close-menu {
