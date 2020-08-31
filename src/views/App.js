@@ -6,7 +6,6 @@ import { Helmet } from 'react-helmet';
 
 const App = () => {
   return (
-    
     <div className="container">
        <Helmet>
           <title>Elemental | Home</title>

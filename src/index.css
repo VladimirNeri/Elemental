@@ -1,3 +1,4 @@
+/* Universal Box Sizing w/ Inheritance & Vendor Prefixes */
 *,
 *::before,
 *::after {
@@ -12,6 +13,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
 @media only screen and (max-width: 75em) {
   html {
     font-size: 50%;
@@ -60,3 +62,5 @@ body {
   background-size: cover; 
   background-position: center; 
 }
+
+
