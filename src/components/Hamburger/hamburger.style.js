@@ -11,60 +11,6 @@ export const HamStyl = styled.div`
     }
   }
 
-  .main {
-    height: inherit;
-    line-height: inherit;
-    text-align: right;
-
-    ul {
-      height: inherit;
-      line-height: inherit;
-
-      li {
-        border-left: solid 1px rgba(160, 160, 160, 0.3);
-        height: inherit;
-        line-height: inherit;
-        white-space: nowrap;
-
-        i {
-          text-decoration: none;
-          border-bottom: 0;
-          overflow: hidden;
-          position: relative;
-          text-indent: 4em;
-          margin-right: 1.5em;
-        }
-
-        * {
-          display: block;
-          float: left;
-        }
-
-        a {
-          @include icon;
-          border-bottom: 0;
-          color: #aaaaaa;
-          overflow: hidden;
-          position: relative;
-          text-indent: 4em;
-          width: 4em;
-
-          &:before {
-            display: block;
-            height: inherit;
-            left: 0;
-            line-height: inherit;
-            position: absolute;
-            text-align: center;
-            text-indent: 0;
-            top: 0;
-            width: inherit;
-          }
-        }
-      }
-    }
-  }
-
 /* Position and sizing of burger button */
 .bm-burger-button {
 		display: none;
@@ -97,20 +43,6 @@ export const HamStyl = styled.div`
 	  color: #3c3b3b;
 	  padding: 0.8em;
 		font-family: "Raleway", Helvetica, sans-serif;
-	}
-
-  .main .menu {
-		cursor: pointer;
-    z-index: 3;
-	}
-
-  .main .close-menu {
-		border: 0;
-		z-index: 10000;
-	}
-
-  .main .open-menu {
-		border: 0;
 	}
 
 .open-menu{
