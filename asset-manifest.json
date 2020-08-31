@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/elemental/static/css/main.a658fb5d.chunk.css",
-    "main.js": "/elemental/static/js/main.d635a142.chunk.js",
-    "main.js.map": "/elemental/static/js/main.d635a142.chunk.js.map",
+    "main.css": "/elemental/static/css/main.0c811da1.chunk.css",
+    "main.js": "/elemental/static/js/main.cabbf9f8.chunk.js",
+    "main.js.map": "/elemental/static/js/main.cabbf9f8.chunk.js.map",
     "runtime-main.js": "/elemental/static/js/runtime-main.a902730e.js",
     "runtime-main.js.map": "/elemental/static/js/runtime-main.a902730e.js.map",
     "static/css/2.11829350.chunk.css": "/elemental/static/css/2.11829350.chunk.css",
-    "static/js/2.4ea29ea8.chunk.js": "/elemental/static/js/2.4ea29ea8.chunk.js",
-    "static/js/2.4ea29ea8.chunk.js.map": "/elemental/static/js/2.4ea29ea8.chunk.js.map",
+    "static/js/2.9c760960.chunk.js": "/elemental/static/js/2.9c760960.chunk.js",
+    "static/js/2.9c760960.chunk.js.map": "/elemental/static/js/2.9c760960.chunk.js.map",
     "index.html": "/elemental/index.html",
-    "precache-manifest.c8962a1d3988d3424480f3666cfc327c.js": "/elemental/precache-manifest.c8962a1d3988d3424480f3666cfc327c.js",
+    "precache-manifest.44ee4dd5a033fb56d541347659fe69cf.js": "/elemental/precache-manifest.44ee4dd5a033fb56d541347659fe69cf.js",
     "service-worker.js": "/elemental/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/elemental/static/css/2.11829350.chunk.css.map",
-    "static/css/main.a658fb5d.chunk.css.map": "/elemental/static/css/main.a658fb5d.chunk.css.map",
-    "static/js/2.4ea29ea8.chunk.js.LICENSE.txt": "/elemental/static/js/2.4ea29ea8.chunk.js.LICENSE.txt",
+    "static/css/main.0c811da1.chunk.css.map": "/elemental/static/css/main.0c811da1.chunk.css.map",
+    "static/js/2.9c760960.chunk.js.LICENSE.txt": "/elemental/static/js/2.9c760960.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/elemental/static/media/1.bc4a55ee.jpg",
     "static/media/10.jpg": "/elemental/static/media/10.6d7b7450.jpg",
     "static/media/11.jpg": "/elemental/static/media/11.d23bb3de.jpg",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.a902730e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.4ea29ea8.chunk.js",
-    "static/css/main.a658fb5d.chunk.css",
-    "static/js/main.d635a142.chunk.js"
+    "static/js/2.9c760960.chunk.js",
+    "static/css/main.0c811da1.chunk.css",
+    "static/js/main.cabbf9f8.chunk.js"
   ]
 }
