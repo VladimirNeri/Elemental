@@ -30,7 +30,7 @@ const Hamburger = () => {
         </ul>
       </nav>
 
-      <Menu right isOpen={open}>
+      <Menu right noOverlay isOpen={open}>
         <ul className='hamburger-ul'>
           {routes.map((l) => (
             <li key={l.label}>

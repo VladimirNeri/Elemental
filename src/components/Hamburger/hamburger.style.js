@@ -88,7 +88,7 @@ export const HamStyl = styled.div`
 	/* General sidebar styles */
 	.bm-menu {
 	  background: white;
-	  padding: 2.5em 1.5em 0;
+	  padding: 2em 1em 0;
 	  font-size: 1.15em;
 	}
 
