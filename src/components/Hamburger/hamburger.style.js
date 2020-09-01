@@ -5,7 +5,7 @@ export const HamStyl = styled.div`
     display: none;
   }
 
-  @media (max-width: 487px) {
+  @media screen and (max-width: 487px) {
     .hamburger-container {
       display: initial;
     }
@@ -62,7 +62,7 @@ export const HamStyl = styled.div`
 
 .main .open-menu {
 	border: 0;
-  z-index: 21; 
+  z-index: 21;
 }
 
 .open-menu{
