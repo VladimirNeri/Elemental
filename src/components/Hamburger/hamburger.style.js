@@ -47,25 +47,31 @@ export const HamStyl = styled.div`
 	  color: #3c3b3b;
 	  padding: 0.8em;
 		font-family: "Raleway", Helvetica, sans-serif;
+  }
+  
+.index-link {
+  z-index: 3;
+}
+
+.main .menu {
+	cursor: pointer;
+  margin-top: -0.25em; 
 	}
 
-#header .index-link {
-		z-index: 3;
-	}
+.main .close-menu {
+	border: 0;
+	z-index: 10000;
+}
 
-  #header .main .menu {
-		cursor: pointer;
-	}
+.main .open-menu {
+	border: 0;
+}
 
-	#header .main .close-menu {
-		border: 0;
-		z-index: 10000;
-	}
-
-	#header .main .open-menu {
-		border: 0;
-	}
-
+.open-menu{
+	position: fixed;
+	right: 0;
+	border: none;
+}
 
 .close-menu{
 	position: fixed;
