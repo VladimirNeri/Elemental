@@ -13,7 +13,11 @@ export const HamStyl = styled.div`
 
 /* Position and sizing of burger button */
 .bm-burger-button {
-		display: none;
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
 	}
 
 	/* Color/shape of burger icon bars */
@@ -44,6 +48,22 @@ export const HamStyl = styled.div`
 	  padding: 0.8em;
 		font-family: "Raleway", Helvetica, sans-serif;
 	}
+
+.main .menu {
+	cursor: pointer;
+  margin-top: -0.25em; 
+  z-index: 21;
+	}
+
+.main .close-menu {
+	border: 0;
+	z-index: 10000;
+}
+
+.main .open-menu {
+	border: 0;
+  z-index: 21; 
+}
 
 .open-menu{
 	position: fixed;
