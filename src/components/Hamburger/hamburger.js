@@ -10,7 +10,7 @@ const Hamburger = () => {
   return (
     <HamStyl>
       <div className='hamburger-container'>
-        <nav className='main' id='hamburger-nav'>
+        <nav className='hamburger'>
           <ul>
             {open ? (
               <li className='menu close-menu'>
