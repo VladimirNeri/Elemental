@@ -62,7 +62,6 @@ export const HamStyl = styled.div`
 
   .main .close-menu {
     border: 0;
-
   }
 
   .main .open-menu {
@@ -114,6 +113,81 @@ export const HamStyl = styled.div`
 
     .index-li {
       border-top: none;
+    }
+
+    .main {
+      height: inherit;
+      line-height: inherit;
+      text-align: right;
+
+      ul {
+        height: inherit;
+        line-height: inherit;
+
+        li {
+          border-left: solid 1px _palette(border);
+          height: inherit;
+          line-height: inherit;
+          white-space: nowrap;
+
+          > i {
+            text-decoration: none;
+            border-bottom: 0;
+            overflow: hidden;
+            position: relative;
+            text-indent: 4em;
+            margin-right: 1.5em;
+          }
+
+          > * {
+            display: block;
+            float: left;
+          }
+
+          > a {
+            @include icon;
+            border-bottom: 0;
+            color: _palette(fg-light);
+            overflow: hidden;
+            position: relative;
+            text-indent: 4em;
+            width: 4em;
+
+            &:before {
+              display: block;
+              height: inherit;
+              left: 0;
+              line-height: inherit;
+              position: absolute;
+              text-align: center;
+              text-indent: 0;
+              top: 0;
+              width: inherit;
+            }
+          }
+        }
+      }
+    }
+
+    @include breakpoint(medium) {
+      .links {
+        display: none;
+      }
+    }
+
+    @include breakpoint(small) {
+      height: 2.75em;
+      line-height: 2.75em;
+
+      h1 {
+        padding: 0 0 0 1em;
+      }
+
+      .main {
+        .search {
+          display: none;
+        }
+      }
     }
   }
 `;
