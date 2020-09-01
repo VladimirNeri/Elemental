@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import routes from '../../data/routes';
-import Menu from 'react-burger-menu/lib/menus/slide';
+import Menu from 'react-burger-menu/lib/menus/slide'
 import { HamStyl } from './hamburger.style';
 
 const Hamburger = () => {
@@ -28,7 +28,7 @@ const Hamburger = () => {
           </ul>
         </nav>
 
-        <Menu right noOverlay width={200} isOpen={open}>
+        <Menu right noOverlay width={240} isOpen={open}>
           <ul className='hamburger-ul'>
             {routes.map((l) => (
               <li key={l.label}>
