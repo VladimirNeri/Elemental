@@ -29,7 +29,9 @@ const Hamburger = () => {
           </ul>
         </nav>
 
-       
+        <Menu right noOverlay  width={200} isOpen={open}>
+         
+        </Menu>
       </div>
     </HamStyl>
   );
