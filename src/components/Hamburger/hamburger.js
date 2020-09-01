@@ -5,7 +5,7 @@ import { slide as Menu } from 'react-burger-menu';
 import { HamStyl } from './hamburger.style';
 
 const Hamburger = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
   return (
