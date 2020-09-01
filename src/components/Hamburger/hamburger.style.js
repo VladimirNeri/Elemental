@@ -11,76 +11,74 @@ export const HamStyl = styled.div`
     }
   }
 
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
-	}
-
-	/* Color/shape of burger icon bars */
-	.bm-burger-bars {
-		display: none;
-	}
-
-	/* Position and sizing of clickable cross button */
-	.bm-cross-button {
-		display: none;
-	}
-
-	/* Color/shape of close button cross */
-	.bm-cross {
-		display: none;
-	}
-
-	/* General sidebar styles */
-	.bm-menu {
-	  background: white;
-	  padding: 2em 1em 0;
-	  font-size: 1.15em;
-	}
-
-	/* Wrapper for item list */
-	.bm-item-list {
-	  color: #3c3b3b;
-	  padding: 0.8em;
-		font-family: "Raleway", Helvetica, sans-serif;
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
   }
-  
-.index-link {
-  z-index: 3;
-}
 
-.main .menu {
-	cursor: pointer;
-  margin-top: -0.25em; 
-	}
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    display: none;
+  }
 
-.main .close-menu {
-	border: 0;
-	z-index: 10000;
-}
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    display: none;
+  }
 
-.main .open-menu {
-	border: 0;
-}
+  /* Color/shape of close button cross */
+  .bm-cross {
+    display: none;
+  }
 
-.open-menu{
-	position: fixed;
-	right: 0;
-	border: none;
-}
+  /* General sidebar styles */
+  .bm-menu {
+    background: white;
+    padding: 2em 1em 0;
+    font-size: 1.15em;
+  }
 
-.close-menu{
-	position: fixed;
-	right: 0;
-	z-index: 3;
-	border-left: 0;
-}
+  /* Wrapper for item list */
   .bm-item-list {
     margin-top: 0;
+    color: #3c3b3b;
+    padding: 0.8em;
+    font-family: 'Raleway', Helvetica, sans-serif;
+  }
+
+  .index-link {
+    z-index: 3;
+  }
+
+  .main .menu {
+    cursor: pointer;
+    margin-top: -0.25em;
+  }
+
+  .main .close-menu {
+    border: 0;
+
+  }
+
+  .main .open-menu {
+    border: 0;
+  }
+
+  .open-menu {
+    position: fixed;
+    right: 0;
+    border: none;
+  }
+
+  .close-menu {
+    position: fixed;
+    right: 0;
+    z-index: 3;
+    border-left: 0;
   }
 
   .menu-hover {
