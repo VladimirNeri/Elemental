@@ -7,7 +7,6 @@ import { HamStyl } from './hamburger.style';
 const Hamburger = () => {
   const [open, setOpen] = useState(false);
 
-  // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
   return (
     <HamStyl>
       <div className='hamburger-container'>
