@@ -52,7 +52,6 @@ export const HamStyl = styled.div`
 .main .menu {
 	cursor: pointer;
   margin-top: -0.25em; 
-  z-index: 21;
 	}
 
 .main .close-menu {
@@ -62,7 +61,6 @@ export const HamStyl = styled.div`
 
 .main .open-menu {
 	border: 0;
-  z-index: 21;
 }
 
 .open-menu{
