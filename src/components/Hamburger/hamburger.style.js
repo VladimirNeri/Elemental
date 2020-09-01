@@ -38,15 +38,17 @@ export const HamStyl = styled.div`
   /* General sidebar styles */
   .bm-menu {
     background: white;
-    padding: 2em 1em 0;
+    margin-top: 12px;
+    padding: 1em 1em 0 2em;
     font-size: 1.15em;
+    z-index: 10000;
   }
 
   /* Wrapper for item list */
   .bm-item-list {
     margin-top: 0;
     color: #3c3b3b;
-    padding: 0.8em;
+    padding: 0;
     font-family: 'Raleway', Helvetica, sans-serif;
   }
 
@@ -56,7 +58,7 @@ export const HamStyl = styled.div`
 
   .main .menu {
     cursor: pointer;
-    margin-top: -0.25em;
+    margin-top: 0;
   }
 
   .main .close-menu {
