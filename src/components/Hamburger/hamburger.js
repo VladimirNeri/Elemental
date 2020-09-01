@@ -29,17 +29,7 @@ const Hamburger = () => {
           </ul>
         </nav>
 
-        <Menu right noOverlay  width={200} isOpen={true}>
-          <ul className='hamburger-ul'>
-            {routes.map((l) => (
-              <li key={l.label}>
-                <Link to={l.path} onClick={() => setOpen(!open)}>
-                  <h3 className={l.index && 'index-li'}>{l.label}</h3>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </Menu>
+       
       </div>
     </HamStyl>
   );
