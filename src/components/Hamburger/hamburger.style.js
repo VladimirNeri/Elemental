@@ -49,25 +49,23 @@ export const HamStyl = styled.div`
 		font-family: "Raleway", Helvetica, sans-serif;
 	}
 
-.main .menu {
-	cursor: pointer;
-  margin-top: -0.25em; 
+#header .index-link {
+		z-index: 3;
 	}
 
-.main .close-menu {
-	border: 0;
-	z-index: 10000;
-}
+  #header .main .menu {
+		cursor: pointer;
+	}
 
-.main .open-menu {
-	border: 0;
-}
+	#header .main .close-menu {
+		border: 0;
+		z-index: 10000;
+	}
 
-.open-menu{
-	position: fixed;
-	right: 0;
-	border: none;
-}
+	#header .main .open-menu {
+		border: 0;
+	}
+
 
 .close-menu{
 	position: fixed;
