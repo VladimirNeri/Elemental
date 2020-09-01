@@ -38,10 +38,9 @@ export const HamStyl = styled.div`
   /* General sidebar styles */
   .bm-menu {
     background: white;
-    margin-top: 12px;
+    margin-top: 11px;
     padding: 1em 1em 0 2em;
     font-size: 1.15em;
-    z-index: 10000;
   }
 
   /* Wrapper for item list */

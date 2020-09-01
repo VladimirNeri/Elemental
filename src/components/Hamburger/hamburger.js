@@ -5,7 +5,7 @@ import { slide as Menu } from 'react-burger-menu';
 import { HamStyl } from './hamburger.style';
 
 const Hamburger = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
   return (
@@ -29,7 +29,7 @@ const Hamburger = () => {
           </ul>
         </nav>
 
-        <Menu right noOverlay  width={200} isOpen={open}>
+        <Menu right noOverlay width={200} isOpen={open}>
           <ul className='hamburger-ul'>
             {routes.map((l) => (
               <li key={l.label}>
