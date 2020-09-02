@@ -36,7 +36,8 @@ export const HamStyl = styled.div`
   }
 
   .bm-menu-wrap {
-    z-index: 9999; 
+    position: fixed; 
+    height: 100%;
   }
 
   /* General sidebar styles */
