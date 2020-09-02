@@ -6,13 +6,13 @@ export const Nav = styled.div`
   grid-template-columns: 1fr auto 1fr; 
   font-size: 12px;
   text-transform: uppercase;
-  height: 4em; 
+  height: 4rem; 
   width: 99%;
   
   /* fix navbar to top */
   overflow: hidden;
   z-index: 21; 
-  padding-bottom: 2em;
+  padding-top: .5rem;
   position: fixed;
   top: 0; 
 
@@ -33,8 +33,7 @@ export const Nav = styled.div`
   }
 
   .title {
-    padding-bottom: 1em;
-
+    padding-top: 0.5rem; 
     &:hover {
       color: #1e90ff;
       text-decoration: none;
@@ -42,21 +41,19 @@ export const Nav = styled.div`
   }
 
   .links {
-    padding-top: 1em;
     grid-column: 2/3; 
     
     @media (max-width: 950px) {
       grid-column: 3/3;
-  
+      margin: auto;
     }
 
-    @media (max-width: 499px) {
+    @media (max-width: 487px) {
       display: none;
     }
   }
 
   .icons {
-    padding-top: 1em;
     grid-column: 3/3;
     justify-self: end;
     
