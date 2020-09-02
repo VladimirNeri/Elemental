@@ -8,6 +8,8 @@ export const HamStyl = styled.div`
   @media screen and (max-width: 487px) {
     .hamburger-container {
       display: initial;
+      position: relative; 
+      z-index: 10000; 
     }
   }
 
@@ -35,8 +37,14 @@ export const HamStyl = styled.div`
     display: none;
   }
 
+  .bm-menu-wrap {
+    position: relative; 
+    z-index: 10000; 
+  }
   /* General sidebar styles */
   .bm-menu {
+    position: relative; 
+    z-index: 10000; 
     background: white;
     margin-top: 9px;
     padding: 1em 1em 0 2em;
@@ -62,7 +70,7 @@ export const HamStyl = styled.div`
 
   .hamburger .close-menu {
     border: 0;
-    z-index: 10000;
+    /* z-index: 10000; */
   }
 
   .hamburger .open-menu {
