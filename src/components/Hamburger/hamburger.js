@@ -28,7 +28,7 @@ const Hamburger = () => {
           </ul>
         </nav>
 
-        <Menu right noOverlay width={240} isOpen={open}>
+        <Menu right noOverlay width={240} isOpen={open} pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
           <ul className='hamburger-ul'>
             {routes.map((l) => (
               <li key={l.label}>

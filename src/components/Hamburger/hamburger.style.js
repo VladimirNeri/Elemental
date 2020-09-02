@@ -42,12 +42,10 @@ export const HamStyl = styled.div`
 
   /* General sidebar styles */
   .bm-menu {
-
     background: white;
     margin-top: 9px;
     padding: 1em 1em 0 2em;
     font-size: 1.15em;
-  
   }
 
   /* Wrapper for item list */
