@@ -40,7 +40,7 @@ const Hamburger = () => {
     //     </Menu>
     //   </div>
     // </HamStyl>
-    
+    <HamStyl>
     <Menu right noOverlay width={200} isOpen={true}>
       <a id='home' className='menu-item' href='/'>
         Home
@@ -55,6 +55,7 @@ const Hamburger = () => {
         Settings
       </a>
     </Menu>
+    </HamStyl>
   );
 };
 
