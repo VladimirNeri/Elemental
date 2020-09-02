@@ -36,7 +36,8 @@ export const HamStyl = styled.div`
   }
 
   .bm-menu-wrap {
-    position: fixed; 
+    position: relative;
+    z-index: 9999;  
     height: 100%;
   }
 
