@@ -35,12 +35,6 @@ export const HamStyl = styled.div`
     display: none;
   }
 
-  .bm-menu-wrap {
-    position: relative;
-    z-index: 9999;  
-    height: 100%;
-  }
-
   /* General sidebar styles */
   .bm-menu {
     background: white;
@@ -68,7 +62,7 @@ export const HamStyl = styled.div`
 
   .hamburger .close-menu {
     border: 0;
-
+    z-index: 10000;
   }
 
   .hamburger .open-menu {
