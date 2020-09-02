@@ -2,15 +2,15 @@ import styled from 'styled-components';
 
 export const HamStyl = styled.div`
   .hamburger-container {
-    display: none;
+    z-index: 1000; 
   }
 
-  @media screen and (max-width: 487px) {
+  /* @media screen and (max-width: 487px) {
     .hamburger-container {
       display: initial;
       z-index: 1000; 
     }
-  }
+  } */
 
   /* Position and sizing of burger button */
   .bm-burger-button {
@@ -39,7 +39,7 @@ export const HamStyl = styled.div`
   /* General sidebar styles */
   .bm-menu {
    
-    background: lemonchiffon;
+    background: white;
     margin-top: 9px;
     padding: 1em 1em 0 2em;
     font-size: 1.15em;
