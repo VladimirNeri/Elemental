@@ -8,6 +8,7 @@ export const HamStyl = styled.div`
   @media screen and (max-width: 487px) {
     .hamburger-container {
       display: initial;
+      z-index: 1000; 
     }
   }
 
@@ -37,12 +38,12 @@ export const HamStyl = styled.div`
 
   /* General sidebar styles */
   .bm-menu {
-    position: relative; 
+   
     background: lemonchiffon;
     margin-top: 9px;
     padding: 1em 1em 0 2em;
     font-size: 1.15em;
-    z-index: 1000; 
+  
   }
 
   /* Wrapper for item list */
