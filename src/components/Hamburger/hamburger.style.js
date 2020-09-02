@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const HamStyl = styled.div`
+  .hamburger {
+    padding-top: 1em;
+  }
+  
   .hamburger-container {
     display: none;
   }
@@ -38,7 +42,7 @@ export const HamStyl = styled.div`
   /* General sidebar styles */
   .bm-menu {
     background: white;
-    margin-top: 9px;
+    margin-top: 10px;
     padding: 1em 1em 0 2em;
     font-size: 1.15em;
   }

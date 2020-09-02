@@ -44,10 +44,9 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
-      
+
       <Hamburger />
     </Nav>
-
   );
 }
 
