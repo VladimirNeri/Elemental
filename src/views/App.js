@@ -12,8 +12,8 @@ const App = () => {
           <meta name="elemental" content="Home" />
         </Helmet>
       <Navbar />
-      {/* <Hero />
-      <Gallery /> */}
+      <Hero />
+      <Gallery />
     </div>
   );
 }

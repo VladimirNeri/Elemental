@@ -11,7 +11,7 @@ import { Nav } from './nav.style';
 const Navbar = () => {
   return (
     <Nav>
-      {/* <h1 className="title">
+      <h1 className="title">
         {routes
           .filter((l) => l.index)
           .map((l) => (
@@ -19,7 +19,7 @@ const Navbar = () => {
               {l.label}
             </Link>
           ))}
-      </h1> */}
+      </h1>
       
       {/* <div className="links">
         <ul>
