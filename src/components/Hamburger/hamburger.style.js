@@ -27,7 +27,7 @@ export const HamStyl = styled.div`
     margin-top: 9px;
     padding: 1em 1em 0 2em;
     font-size: 1.15em;
-    z-index: 10000; 
+    z-index: 3; 
   }
 
   /* Wrapper for item list */
@@ -47,7 +47,6 @@ export const HamStyl = styled.div`
   .close-menu {
     position: fixed;
     right: 0;
-    z-index: 3;
     border-left: 0;
   }
 
