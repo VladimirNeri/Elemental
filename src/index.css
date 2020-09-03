@@ -36,6 +36,10 @@ body {
   margin-right: 0; 
   height: auto; 
   /* border: dashed red;  */
+  @media (max-width: 487px) {
+    z-index: -1; 
+  }
+
 }
 
 .my-masonry-grid {

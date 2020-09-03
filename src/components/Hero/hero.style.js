@@ -8,7 +8,6 @@ export const HeroStyl = styled.div`
 
   @media (max-width: 487px) {
     width: 100%;
-    z-index: -1; 
   }
 
    /* Should be on the markup */
