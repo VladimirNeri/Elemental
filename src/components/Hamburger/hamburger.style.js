@@ -11,15 +11,12 @@ export const HamStyl = styled.div`
     }
   }
 
-  /* Position and sizing of burger button */
+  /* keeps hamburger and x button on the same spot */
   .bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 36px;
-    top: 36px;
+    position: absolute;
   }
 
+  /* css for the menu slide */
   .bm-menu {
     background: white;
     margin-top: 9px;
@@ -36,20 +33,18 @@ export const HamStyl = styled.div`
     font-family: 'Raleway', Helvetica, sans-serif;
   }
 
+  /* position hamburger to the right */
   .open-menu {
     position: fixed;
-    right: 0;
+    right: 1em;
     border: none;
   }
 
+  /* position X to the right */
   .close-menu {
     position: fixed;
-    right: 0;
+    right: 1em;
     border-left: 0;
-  }
-
-  .menu-hover {
-    margin-right: 1em;
   }
 
   .hamburger-ul {
