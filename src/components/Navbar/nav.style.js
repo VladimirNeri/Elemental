@@ -10,11 +10,11 @@ export const Nav = styled.div`
   width: 99%;
   
   /* fix navbar to top */
-  overflow: hidden;
+  /* overflow: hidden;
   z-index: 21; 
   padding-top: .5rem;
   position: fixed;
-  top: 0; 
+  top: 0;  */
 
   @media (max-width: 950px) {
     grid-template-columns: 1fr 1fr; 
