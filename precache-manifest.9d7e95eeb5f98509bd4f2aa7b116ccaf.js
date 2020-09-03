@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b1634be0e51e96009c85fabf4b8c1f9",
+    "revision": "217435bf68ff3dce9d03af9c61a2672c",
     "url": "/elemental/index.html"
   },
   {
-    "revision": "40de357a2a389f8bffd4",
+    "revision": "78b1f31f747fac7e4759",
     "url": "/elemental/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "e57e8e0599f8d645c57a",
+    "revision": "beb467d3d5f793edbf16",
     "url": "/elemental/static/css/main.f5f7d919.chunk.css"
   },
   {
-    "revision": "40de357a2a389f8bffd4",
-    "url": "/elemental/static/js/2.ad7b1381.chunk.js"
+    "revision": "78b1f31f747fac7e4759",
+    "url": "/elemental/static/js/2.5fbbb57e.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/elemental/static/js/2.ad7b1381.chunk.js.LICENSE.txt"
+    "url": "/elemental/static/js/2.5fbbb57e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e57e8e0599f8d645c57a",
-    "url": "/elemental/static/js/main.5693ca34.chunk.js"
+    "revision": "beb467d3d5f793edbf16",
+    "url": "/elemental/static/js/main.f1fe4ece.chunk.js"
   },
   {
     "revision": "da0c0e0284c5febe344d",
