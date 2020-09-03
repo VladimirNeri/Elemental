@@ -6,8 +6,9 @@ export const HeroStyl = styled.div`
   padding-bottom: 10px; 
   padding-top: 3px; 
 
-  @media (max-width: 450px) {
-    width: 100%
+  @media (max-width: 487px) {
+    width: 100%;
+    z-index: -1; 
   }
 
    /* Should be on the markup */
