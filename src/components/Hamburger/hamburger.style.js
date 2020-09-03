@@ -28,7 +28,7 @@ export const HamStyl = styled.div`
     margin-top: 9px;
     padding: 1em 1em 0 2em;
     font-size: 1.15em;
-    z-index: 3; 
+    z-index: 10000; 
   }
 
   /* Wrapper for item list */
