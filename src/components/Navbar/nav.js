@@ -21,7 +21,7 @@ const Navbar = () => {
           ))}
       </h1>
       
-      <div className="links">
+      {/* <div className="links">
         <ul>
           {routes
             .filter((l) => !l.index)
@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
 
       <Hamburger />
     </Nav>
