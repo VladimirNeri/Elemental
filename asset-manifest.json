@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/elemental/static/css/main.608adfa0.chunk.css",
-    "main.js": "/elemental/static/js/main.b1c60199.chunk.js",
-    "main.js.map": "/elemental/static/js/main.b1c60199.chunk.js.map",
+    "main.js": "/elemental/static/js/main.b64981cb.chunk.js",
+    "main.js.map": "/elemental/static/js/main.b64981cb.chunk.js.map",
     "runtime-main.js": "/elemental/static/js/runtime-main.a902730e.js",
     "runtime-main.js.map": "/elemental/static/js/runtime-main.a902730e.js.map",
     "static/css/2.11829350.chunk.css": "/elemental/static/css/2.11829350.chunk.css",
     "static/js/2.9c760960.chunk.js": "/elemental/static/js/2.9c760960.chunk.js",
     "static/js/2.9c760960.chunk.js.map": "/elemental/static/js/2.9c760960.chunk.js.map",
     "index.html": "/elemental/index.html",
-    "precache-manifest.1751c9d8241d1bf100de7177d2b1c7d7.js": "/elemental/precache-manifest.1751c9d8241d1bf100de7177d2b1c7d7.js",
+    "precache-manifest.933cb427278185960cbf295a81b8cb6d.js": "/elemental/precache-manifest.933cb427278185960cbf295a81b8cb6d.js",
     "service-worker.js": "/elemental/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/elemental/static/css/2.11829350.chunk.css.map",
     "static/css/main.608adfa0.chunk.css.map": "/elemental/static/css/main.608adfa0.chunk.css.map",
@@ -40,6 +40,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.9c760960.chunk.js",
     "static/css/main.608adfa0.chunk.css",
-    "static/js/main.b1c60199.chunk.js"
+    "static/js/main.b64981cb.chunk.js"
   ]
 }
