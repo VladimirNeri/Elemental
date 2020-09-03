@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import routes from '../../data/routes';
-import { push as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
 import { HamStyl } from './hamburger.style';
 
 const Hamburger = () => {
