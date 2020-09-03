@@ -7,8 +7,8 @@ export const HamStyl = styled.div`
 
   @media screen and (max-width: 487px) {
     .hamburger-container {
+      position: relative; 
       display: initial;
-      position: absolute;
     }
   }
 
@@ -21,8 +21,9 @@ export const HamStyl = styled.div`
     top: 36px;
   }
 
-  .bm-menu-wrap {
-    position: relative; 
+  .bm-menu {
+    position: absolute; 
+    width: 240px; 
     background: white;
     margin-top: 9px;
     padding: 1em 1em 0 2em;
