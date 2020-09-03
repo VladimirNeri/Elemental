@@ -8,8 +8,7 @@ export const HamStyl = styled.div`
   @media screen and (max-width: 487px) {
     .hamburger-container {
       display: initial;
-      position: relative; 
-      z-index: 10000; 
+      position: absolute;
     }
   }
 
