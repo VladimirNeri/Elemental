@@ -4,6 +4,8 @@ import data from '../../data/posts';
 import PropTypes from 'prop-types'; 
 
 const Gallery = () => {
+  /* reverse array so latest post is on top */
+  const newData = data.slice().reverse();
   // const breakpointColumnsObj = {
   //   default: 4,
   //   1100: 3,
@@ -16,7 +18,7 @@ const Gallery = () => {
       className="my-masonry-grid"
       columnClassName="my-masonry-grid_column"
     >
-      {data.map((post) => (
+      {newData.map((post) => (
         <div className="image" key={post.id}>
           <a href={`#${post.path}`}>
             <img src={post.image} alt={post.title} className="image" />
