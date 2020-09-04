@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const Gallery = () => {
   /* reverse array so latest post is on top */
-  const newData = data.slice().reverse();
+  const newData = data.reverse();
   // const breakpointColumnsObj = {
   //   default: 4,
   //   1100: 3,

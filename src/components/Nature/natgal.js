@@ -6,7 +6,7 @@ import data from '../../data/posts';
 
 const Natgal = () => {
   let natData = data.filter((data) => data.category === 'nature');
-  const newData = natData.slice().reverse();
+  const newData = natData.reverse();
   return (
     <Masonry
       breakpointCols={{ default: 3, 1100: 3, 700: 2, 500: 1 }}

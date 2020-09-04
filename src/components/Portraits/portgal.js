@@ -4,7 +4,7 @@ import data from '../../data/posts';
 
 const Portgal = () => {
   let portData = data.filter((data) => data.category === 'portrait');
-  const newData = portData.slice().reverse();
+  const newData = portData.reverse();
 
   return (
     <Masonry
