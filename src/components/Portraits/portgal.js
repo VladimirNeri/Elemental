@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Masonry from 'react-masonry-css';
 import data from '../../data/posts';
+import PropTypes from 'prop-types'; 
 
 const Portgal = () => {
   let portData = data.filter((data) => data.category === 'portrait');
@@ -22,5 +23,19 @@ const Portgal = () => {
     </Masonry>
   );
 };
+
+Portgal.propTypes ={
+  data: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired, 
+    title: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired, 
+    category: PropTypes.string.isRequired
+  }))
+}
+
+Portgal.defaultProps = {
+  data: [],
+}
 
 export default Portgal;

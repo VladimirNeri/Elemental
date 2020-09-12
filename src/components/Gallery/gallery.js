@@ -31,11 +31,11 @@ const Gallery = () => {
 
 Gallery.propTypes ={
   data: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string, 
-    title: PropTypes.string, 
-    image: PropTypes.string, 
-    path: PropTypes.string, 
-    category: PropTypes.string 
+    id: PropTypes.string.isRequired, 
+    title: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired, 
+    category: PropTypes.string.isRequired
   }))
 }
 

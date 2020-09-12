@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar/nav';
 import Natgal from '../components/Nature/natgal';
-
+import Footer from '../components/Footer/footer';
 const Nature = () => { 
   return (
     <div className="container">
@@ -12,6 +12,7 @@ const Nature = () => {
       </Helmet>
       <Navbar />
       <Natgal/>
+      <Footer />
     </div>
   );
 }

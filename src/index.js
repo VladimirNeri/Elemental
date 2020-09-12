@@ -13,7 +13,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
     <Router>
       <Switch>
         <Route exact path="/" component={App} />
@@ -23,7 +22,6 @@ ReactDOM.render(
         <Route path="/submit" component={Submit} />
         <Route path="/signup" component={Signpage} />
       </Switch>
-    </Router>
-  </React.StrictMode>,
+    </Router>,
   document.getElementById('root')
 );

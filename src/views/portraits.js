@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar/nav';
 import Portgal from '../components/Portraits/portgal';
+import Footer from '../components/Footer/footer';
 
 const Portraits = () => { 
   return (
@@ -13,6 +14,7 @@ const Portraits = () => {
         </Helmet>
       <Navbar />
       <Portgal />
+      <Footer />
     </div>
   );
 }
