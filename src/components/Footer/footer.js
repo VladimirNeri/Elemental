@@ -7,7 +7,7 @@ import { FootStyl } from './footer.style';
 
 class Footer extends Component {
   state = {
-    showList: false,
+    showList: true,
     highlightedText: false,
   };
 

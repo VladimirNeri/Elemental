@@ -17,8 +17,8 @@ const data = [
     label: 'Submit'
   },
   {
-    path: '/signup',
-    label: 'SignUp'
+    path: '/subscribe',
+    label: 'Subscribe'
   }
 ];
 

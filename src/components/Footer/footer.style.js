@@ -49,18 +49,18 @@ export const FootStyl = styled.div`
       align-content: center;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
+      
 
       .signup {
         grid-column: 1/2;
+        justify-self: center;
+        padding: 3em; 
       }
 
       .icons {
         grid-column: 2/2;
-        justify-self: end;
-
-        @media (max-width: 950px) {
-          display: none;
-        }
+        justify-self: center;
+        padding: 3em; 
       }
 
       ul {

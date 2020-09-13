@@ -52,6 +52,10 @@ export const Nav = styled.div`
     }
   }
 
+  .button {
+    min-width: 65px; 
+  }
+
   .icons {
     grid-column: 3/3;
     justify-self: end;
@@ -73,7 +77,7 @@ export const Nav = styled.div`
     
   li {
     display: inline-block;
-    margin-right: 20px; 
+    margin-right: 30px; 
     transition: opacity 0.5s ease; 
     cursor: pointer; 
     
