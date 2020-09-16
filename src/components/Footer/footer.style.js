@@ -22,12 +22,16 @@ export const FootStyl = styled.div`
       z-index: 1;
       width: 120px;
       height: 40px;
-      background-color: lemonchiffon;
+      background-color: orangered;
       border: none;
       border-radius: 5px;
       outline: none;
       cursor: pointer;
       transition: background-color 350ms;
+
+      @media (max-width: 610px) {
+        display: none;
+      }
     }
 
     .display:active {
@@ -41,26 +45,61 @@ export const FootStyl = styled.div`
       width: 100%;
       padding: 0 20px;
       overflow: hidden;
-      background-color: dodgerblue;
+      background-color: lightgray;
       border-radius: 5px 5px 0 0;
-      height: 250px;
+      height: 350px;
 
       display: grid;
       align-content: center;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
-      
+
+      @media screen and (max-width: 610px) {
+        display: inline-block;
+        text-align: center;
+      }
 
       .signup {
         grid-column: 1/2;
-        justify-self: center;
-        padding: 3em; 
+        padding: 3em;
+        text-align: center;
+
+        .form {
+          display: flexbox;
+
+          .firstName,
+          .lastName {
+            height: 30px;
+            width: 270px;
+            margin-right: 10px;
+            margin-top: 10px;
+          }
+        }
+
+        .email {
+          height: 30px;
+          width: 270px;
+          margin-right: 10px;
+          margin-top: 10px;
+        }
+
+        .submit {
+          height: 30px;
+          width: 270px;
+          margin-right: 10px;
+          margin-top: 10px;
+        }
       }
 
       .icons {
         grid-column: 2/2;
         justify-self: center;
-        padding: 3em; 
+        padding: 3em;
+        display: none;
+
+        @media (max-width: 610px) {
+          display: initial;
+        }
       }
 
       ul {
@@ -89,7 +128,7 @@ export const FootStyl = styled.div`
         grid-column: 1 / span 2;
         justify-self: center;
         height: 3em;
-        font-size: 15px; 
+        font-size: 15px;
       }
 
       .list-item--active {
@@ -113,7 +152,7 @@ export const FootStyl = styled.div`
       top: 45px;
       width: 100%;
       max-height: 250px;
-      background-color: dodgerblue;
+      background-color: lemonchiffon;
       transition: all 400ms;
     }
 

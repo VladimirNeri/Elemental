@@ -4,10 +4,11 @@ import cx from 'classnames';
 import data from '../../data/contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FootStyl } from './footer.style';
+import Form from './form';
 
 class Footer extends Component {
   state = {
-    showList: true,
+    showList: false,
     highlightedText: false,
   };
 
@@ -41,7 +42,9 @@ class Footer extends Component {
             onExit={this.listSwitch}
           >
             <div className='list-body'>
-              <div className='signup'>Subscribe to the Newsletter</div>
+            <div className='signup'>
+              <Form />
+            </div>
               <div className='icons'>
                 <ul>
                   {data.map((s) => (
