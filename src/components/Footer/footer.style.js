@@ -44,9 +44,9 @@ export const FootStyl = styled.div`
       width: 100%;
       padding: 0 20px;
       overflow: hidden;
-      background-color: lightgray;
+      background-color: #75c0e0;
       border-radius: 5px 5px 0 0;
-      height: 350px;
+      height: 250px;
 
       display: grid;
       align-content: center;
@@ -143,7 +143,7 @@ export const FootStyl = styled.div`
       width: auto;
       max-height: 40px;
       color: transparent;
-      background-color: #5a564c;
+      background-color: #75c0e0;
     }
     /* This is where we can add the transition*/
     .list-transition-enter-active,
@@ -160,7 +160,7 @@ export const FootStyl = styled.div`
       top: 45px;
       width: 100%;
       max-height: 250px;
-      background-color: #9e8949;
+      background-color: #75c0e0;
     }
     /* fires as element leaves the DOM*/
     .list-transition-exit-active {
@@ -168,7 +168,7 @@ export const FootStyl = styled.div`
       width: 100%;
       max-height: 0px;
       color: transparent;
-      background-color: #5a564c;
+      background-color: #75c0e0;
       transition: all 400ms;
     }
   }
