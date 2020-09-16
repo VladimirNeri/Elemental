@@ -7,8 +7,7 @@ export const FootStyl = styled.div`
     position: fixed;
     bottom: 0;
     width: 99%;
-    overflow: hidden;
-
+    
     @media (max-width: 1016px) {
       padding-right: 1.25em;
     }
