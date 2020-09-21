@@ -43,7 +43,6 @@ export const FootStyl = styled.div`
       box-sizing: border-box;
       width: 100%;
       padding: 0 20px;
-      overflow: hidden;
       background-color: #75c0e0;
       border-radius: 5px 5px 0 0;
       height: 250px;
