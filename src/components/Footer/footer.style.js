@@ -44,6 +44,7 @@ export const FootStyl = styled.div`
       box-sizing: border-box;
       width: 100%;
       padding: 0 20px;
+      overflow: hidden; 
       background-color: #75c0e0;
       border-radius: 5px 5px 0 0;
       height: 250px;
@@ -139,6 +140,10 @@ export const FootStyl = styled.div`
       max-height: 250px;
       background-color: lemonchiffon;
       transition: all 400ms;
+
+      @media screen and (max-width: 610px) {
+        max-height: 350px;
+      }
     }
 
     /* This fires as soon as the this.state.showList is false */
@@ -147,6 +152,10 @@ export const FootStyl = styled.div`
       width: 100%;
       max-height: 250px;
       background-color: #75c0e0;
+
+      @media screen and (max-width: 610px) {
+        max-height: 350px;
+      }
     }
     /* fires as element leaves the DOM*/
     .list-transition-exit-active {
