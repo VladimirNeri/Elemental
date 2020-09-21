@@ -4,14 +4,13 @@ export const Nav = styled.div`
   background-color: white;
   display: grid;
   grid-template-columns: 1fr auto 1fr; 
-  font-size: 12px;
   text-transform: uppercase;
   height: 5rem; 
   width: 99%;
   
   /* fix navbar to top */
   z-index: 21; 
-  padding-top: 1em;
+  padding-top: 1.25em;
   position: fixed;
   top: 0; 
 
@@ -33,6 +32,7 @@ export const Nav = styled.div`
 
   .title {
     padding-top: 0.5rem; 
+
     &:hover {
       color: #1e90ff;
       text-decoration: none;
@@ -68,7 +68,7 @@ export const Nav = styled.div`
   ul {
     padding: 5px; 
     align-content: center;
-    font-size: 16px; 
+    font-size: 17px; 
 
     a {
       color: inherit; 
