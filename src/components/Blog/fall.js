@@ -17,7 +17,7 @@ const Fall = () => {
             </Helmet>
           </div>
           <h1>{post.title}</h1>
-          <p>{post.desc}</p>
+          <h3>"{post.desc}"</h3>
           <img src={post.image.image1} alt={post.title} className='image' />
           <p>"Ut enim consequatur?"</p>
           <img src={post.image.image2} alt={post.title} className='image' />

@@ -6,12 +6,12 @@ export const Nav = styled.div`
   grid-template-columns: 1fr auto 1fr; 
   font-size: 12px;
   text-transform: uppercase;
-  height: 4rem; 
+  height: 5rem; 
   width: 99%;
   
   /* fix navbar to top */
   z-index: 21; 
-  padding-top: .5rem;
+  padding-top: 1em;
   position: fixed;
   top: 0; 
 
@@ -47,7 +47,7 @@ export const Nav = styled.div`
       margin: auto;
     }
 
-    @media (max-width: 610px) {
+    @media (max-width: 660px) {
       display: none;
     }
   }

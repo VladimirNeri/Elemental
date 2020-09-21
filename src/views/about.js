@@ -1,17 +1,17 @@
 import React from 'react'; 
 import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar/nav';
-import Signup from '../components/Search/search';
+import About from '../components/About/about';
 
 const Signpage= () => { 
   return (
     <div className="container">
       <Helmet>
-          <title>Elemental | Search</title>
-          <meta name="description" content="Signup Page" />
+          <title>Elemental | About</title>
+          <meta name="description" content="About Page" />
         </Helmet>
       <Navbar />
-      <Signup />
+      <About/>
     </div>
   );
 }
