@@ -31,4 +31,11 @@ export const Pagstyl = styled.div`
     padding: 10px; 
   }
 
+  .video {
+    display: block;
+    margin-top: 2em; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 `
