@@ -138,7 +138,7 @@ export const FootStyl = styled.div`
       top: 45px;
       width: 100%;
       max-height: 250px;
-      background-color: lemonchiffon;
+      background-color: #75c0e0;
       transition: all 400ms;
 
       @media screen and (max-width: 610px) {
