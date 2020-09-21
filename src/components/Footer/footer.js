@@ -6,7 +6,7 @@ import Form from './form';
 
 class Footer extends Component {
   state = {
-    showList: true,
+    showList: false,
     highlightedText: false,
   };
 

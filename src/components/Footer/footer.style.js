@@ -29,7 +29,8 @@ export const FootStyl = styled.div`
       transition: background-color 350ms;
 
       @media (max-width: 610px) {
-        display: none;
+        width: 50px;
+        heigth: 20px;
       }
     }
 
@@ -73,7 +74,6 @@ export const FootStyl = styled.div`
 
           @media (max-width: 1254px) {
             margin-right: 0px;
-            
           }
         }
 
