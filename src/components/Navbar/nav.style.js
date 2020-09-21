@@ -53,7 +53,7 @@ export const Nav = styled.div`
   }
 
   .button {
-    min-width: 65px; 
+    min-width: 70px; 
   }
 
   .icons {
