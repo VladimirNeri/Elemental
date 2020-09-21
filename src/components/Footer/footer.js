@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import cx from 'classnames';
-import data from '../../data/contact';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FootStyl } from './footer.style';
 import Form from './form';
 
 class Footer extends Component {
   state = {
-    showList: false,
+    showList: true,
     highlightedText: false,
   };
 
@@ -42,19 +40,11 @@ class Footer extends Component {
             onExit={this.listSwitch}
           >
             <div className='list-body'>
-            <div className='signup'>
-              <Form />
-            </div>
-              <div className='icons'>
-                <ul>
-                  {data.map((s) => (
-                    <li key={s.label}>
-                      <a href={s.link}>
-                        <FontAwesomeIcon icon={s.icon} />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+              <div className='signup'>
+                <Form />
+              </div>
+              <div className='exclusive'>
+                <h3 className='title'>Digital Publications / Exclusive Content</h3>
               </div>
               <div
                 className={cx('copyright', {

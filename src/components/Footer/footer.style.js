@@ -7,7 +7,7 @@ export const FootStyl = styled.div`
     position: fixed;
     bottom: 0;
     width: 99%;
-    
+
     @media (max-width: 1016px) {
       padding-right: 1.25em;
     }
@@ -56,71 +56,58 @@ export const FootStyl = styled.div`
       @media screen and (max-width: 610px) {
         display: inline-block;
         text-align: center;
+        height: 350px;
       }
 
       .signup {
         grid-column: 1/2;
         padding: 3em;
         text-align: center;
+        margin: auto;
 
-        .form {
-          display: flexbox;
+        .firstName {
+          height: 30px;
+          width: 270px;
+          margin-right: 10px;
+          margin-top: 10px;
+          padding-left: 5px;
 
-          .firstName,
-          .lastName {
-            height: 30px;
-            width: 270px;
-            margin-right: 10px;
-            margin-top: 10px;
+          @media (max-width: 1254px) {
+            margin-right: 0px;
+            
           }
+        }
+
+        .lastName {
+          height: 30px;
+          width: 270px;
+          margin-top: 10px;
+          padding-left: 5px;
+          /* margin-right: 10px;  */
         }
 
         .email {
           height: 30px;
           width: 270px;
-          margin-right: 10px;
+          padding-left: 5px;
+          display: block;
+          margin: auto;
+
           margin-top: 10px;
         }
 
         .submit {
           height: 30px;
-          width: 270px;
-          margin-right: 10px;
+          width: 200px;
+          /* margin-right: 10px; */
           margin-top: 10px;
         }
       }
 
-      .icons {
+      .exclusive {
         grid-column: 2/2;
         justify-self: center;
         padding: 3em;
-        display: none;
-
-        @media (max-width: 610px) {
-          display: initial;
-        }
-      }
-
-      ul {
-        padding: 5px;
-        align-content: center;
-        font-size: 16px;
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        li {
-          display: inline-block;
-          margin-right: 20px;
-          transition: opacity 0.5s ease;
-          cursor: pointer;
-
-          :last-of-type {
-            margin-right: 0px;
-          }
-        }
       }
 
       .copyright {
