@@ -16,6 +16,7 @@ export const Pagstyl = styled.div`
     margin-top: 1em; 
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px; 
   }
 
   .image {
